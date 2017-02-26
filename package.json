@@ -1,6 +1,6 @@
 {
   "name": "vue-flag-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue flag icon component",
   "main": "index.js",
   "scripts": {
