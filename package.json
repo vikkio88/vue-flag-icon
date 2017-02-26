@@ -1,0 +1,27 @@
+{
+  "name": "vue-flag-icon",
+  "version": "1.0.0",
+  "description": "vue flag icon component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikkio88/vue-flag-icon.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-component",
+    "languages",
+    "flag",
+    "iso",
+    "flag-icon-css"
+  ],
+  "author": "Vincenzo Ciaccio <vincenzo.ciaccio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikkio88/vue-flag-icon/issues"
+  },
+  "homepage": "https://github.com/vikkio88/vue-flag-icon#readme"
+}
