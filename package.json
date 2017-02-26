@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/vikkio88/vue-flag-icon/issues"
   },
-  "homepage": "https://github.com/vikkio88/vue-flag-icon#readme"
+  "homepage": "https://github.com/vikkio88/vue-flag-icon#readme",
+  "dependencies": {
+    "flag-icon-css": "^2.8.0"
+  }
 }
