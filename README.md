@@ -27,6 +27,8 @@ Then to use it
 </div>
 </template
 ```
+To see a full set of all the icons and countries *iso* codes visit the [flag-icon-css](http://flag-icon-css.lip.is/) website.
+There are 246 different icons there.
 
 Being svg files they are resizable as long as you set the font size accordingly in a wrapper element
 ```html
