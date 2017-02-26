@@ -48,6 +48,45 @@ in the Compoment you should dinamically bind the value
 <flag :iso="guy.nationality" />
 ```
 
-### Screenshot
+## Screenshot
+### Code Example
+(it is the basic vue-cli webpack template)
+```html
+<template>
+  <div id="app">
+    <img src="./assets/logo.png">
+    <hello></hello>
+    <flag iso="it" />
+    <flag iso="gb" />
+    <flag iso="us" />
+  </div>
+</template>
+
+<script>
+import Hello from './components/Hello'
+
+export default {
+  name: 'app',
+  components: {
+    Hello
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
+```
+
+### Result
+![image](https://cloud.githubusercontent.com/assets/248805/23336343/22f3bcf6-fbc5-11e6-93bf-6adae0a27f68.png)
+
 
 
