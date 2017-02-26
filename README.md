@@ -1,5 +1,6 @@
-[![NPM](https://nodei.co/npm/vue-flag-icon.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-flag-icon/)
 # Vue-Flag-Icon
+[![NPM](https://nodei.co/npm/vue-flag-icon.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-flag-icon/)
+
 a Vue2 Compoment for [flag-icon-css](https://github.com/lipis/flag-icon-css)
 
 ## Install
