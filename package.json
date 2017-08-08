@@ -1,11 +1,8 @@
 {
   "name": "vue-flag-icon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue flag icon component",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vikkio88/vue-flag-icon.git"
