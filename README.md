@@ -89,6 +89,11 @@ export default {
 </style>
 ```
 
+### Additional Props
+From 1.0.4 you can now specify two different properties:
+- **squared** : it will render the flag as a square if *true*, otherwise the flag will be rectangular shaped (*true* by default).
+- **title** : you can specify the title of the flag icon, (by default it will be overwritten by the *iso*)
+
 ### Result
 ![image](https://cloud.githubusercontent.com/assets/248805/23336343/22f3bcf6-fbc5-11e6-93bf-6adae0a27f68.png)
 
