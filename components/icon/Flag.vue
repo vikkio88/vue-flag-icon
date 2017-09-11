@@ -2,7 +2,7 @@
 
 </style>
 <template>
-    <span v-if="iso" class="flag-icon" :class="flagIconClass" :title="title">
+    <span v-if="iso" class="flag-icon" :class="flagIconClass" :title="title || iso">
     </span>
 </template>
 <script>
@@ -14,9 +14,6 @@ export default {
         squared: { type: Boolean, default: true },
     },
     computed: {
-        title() {
-            return this.title || this.iso;
-        },
         flagIconClass() {
             return ((!!this.squared) ? 'flag-icon-squared ' : '') + 'flag-icon-' + this.iso.toLowerCase();
         }
