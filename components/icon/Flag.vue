@@ -14,7 +14,7 @@ export default {
         squared: { type: Boolean, default: true },
     },
     computed: {
-        flagIconClass() {
+        flagIconClass: function() {
             return ((!!this.squared) ? 'flag-icon-squared ' : '') + 'flag-icon-' + this.iso.toLowerCase();
         }
     }
