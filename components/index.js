@@ -1,4 +1,4 @@
-import Flag from './icon/Flag'
+import Flag from './icon/Flag.vue'
 
 export {
     Flag
