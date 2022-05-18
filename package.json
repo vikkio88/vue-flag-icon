@@ -22,6 +22,19 @@
   },
   "homepage": "https://github.com/vikkio88/vue-flag-icon#readme",
   "dependencies": {
-    "flag-icons": "^6.4.2"
+    "flag-icons": "^6.4.2",
+    "vue-demi": "latest"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "vue": "^3.0.0"
   }
 }

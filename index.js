@@ -1,5 +1,7 @@
 import "./vendors";
 
+import { isVue2, isVue3 } from "vue-demi";
+
 import { Flag } from "./components";
 
 const VuePlugin = {
@@ -12,7 +14,17 @@ const VuePlugin = {
   },
 };
 
-if (typeof window !== "undefined" && window.Vue) {
+if (isVue3) {
+  VuePlugin.install = function (app) {
+    if (VuePlugin.installed) {
+      return;
+    }
+    VuePlugin.installed = true;
+    app.component("flag", Flag);
+  };
+}
+
+if (isVue2 && typeof window !== "undefined" && window.Vue) {
   window.Vue.use(VuePlugin);
 }
 
