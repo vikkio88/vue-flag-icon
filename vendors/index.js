@@ -1,1 +1,1 @@
-import 'flag-icon-css/css/flag-icon.css'
+import "flag-icons/css/flag-icon.min.css";
