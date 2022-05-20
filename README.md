@@ -1,7 +1,7 @@
 # Vue-Flag-Icon
 [![NPM](https://nodei.co/npm/vue-flag-icon.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-flag-icon/)
 
-a Vue2 Compoment for [flag-icon-css](https://github.com/lipis/flag-icon-css)
+a Vue2 Component for [flag-icon-css](https://github.com/lipis/flag-icons)
 
 ## Install
 ```
@@ -9,7 +9,7 @@ npm i --save vue-flag-icon
 ```
 
 ## Usage
-Just declare the global Compoment with the **use** directive in your app
+Just declare the global Component with the **use** directive in your app
 ```javascript
 import FlagIcon from 'vue-flag-icon'
 Vue.use(FlagIcon);
@@ -29,7 +29,7 @@ Then to use it
 </div>
 </template
 ```
-To see a full set of all the icons and countries *iso* codes visit the [flag-icon-css](http://flag-icon-css.lip.is/) website.
+To see a full set of all the icons and countries *iso* codes visit the [flag-icon-css](https://flagicons.lipis.dev) website.
 There are 246 different icons there.
 
 Being svg files they are resizable as long as you set the font size accordingly in a wrapper element
@@ -39,7 +39,7 @@ Being svg files they are resizable as long as you set the font size accordingly 
 </div>
 ```
 
-The property **iso** can be as well dinamically set from an object
+The property **iso** can be as well dynamically set from an object
 ```javascript
 let guy = {
     name: "Vincenzo",
@@ -47,7 +47,7 @@ let guy = {
 }
 ```
 
-in the Compoment you should dinamically bind the value
+in the Component you should dynamically bind the value
 ```html
 <flag :iso="guy.nationality" />
 ```
