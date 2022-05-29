@@ -1,7 +1,7 @@
 # Vue-Flag-Icon
 [![NPM](https://nodei.co/npm/vue-flag-icon.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-flag-icon/)
 
-a Vue2 Compoment for [flag-icon-css](https://github.com/lipis/flag-icon-css)
+a Vue2 Compoment for [flag-icon](https://github.com/lipis/flag-icons)
 
 ## Install
 ```
@@ -39,7 +39,7 @@ Being svg files they are resizable as long as you set the font size accordingly 
 </div>
 ```
 
-The property **iso** can be as well dinamically set from an object
+The property **iso** can be as well dynamically set from an object
 ```javascript
 let guy = {
     name: "Vincenzo",
@@ -47,7 +47,7 @@ let guy = {
 }
 ```
 
-in the Compoment you should dinamically bind the value
+in the Compoment you should dynamically bind the value
 ```html
 <flag :iso="guy.nationality" />
 ```
