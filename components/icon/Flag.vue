@@ -13,10 +13,11 @@ export default {
   },
   computed: {
     flagIconClass() {
-      return (!!this.squared ? "fis " : "") + "fi-" + this.iso.toLowerCase();
+      return `fi-${this.iso.toLowerCase()} ${Boolean(this.squared) ? "fis " : ""}`;
     },
   },
 };
 </script>
 
-<style></style>
+<style>
+</style>
