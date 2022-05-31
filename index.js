@@ -1,4 +1,4 @@
-import "./vendors";
+import "flag-icons/css/flag-icons.min.css";
 
 import { Flag } from "./components";
 
