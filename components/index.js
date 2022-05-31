@@ -1,5 +1,3 @@
-import Flag from './icon/Flag.vue'
+import Flag from "./icon/Flag.vue";
 
-export {
-    Flag
-};
+export { Flag };

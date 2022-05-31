@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/vikkio88/vue-flag-icon#readme",
   "dependencies": {
-    "flag-icon-css": "^2.8.0"
+    "flag-icons": "^6.4.4"
   }
 }
