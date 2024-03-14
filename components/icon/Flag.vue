@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: "flag",
+  name: "Flag",
   props: {
     iso: { type: String, default: null },
     title: { type: String, default: null },
