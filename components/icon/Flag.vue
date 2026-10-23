@@ -3,20 +3,18 @@
   </span>
 </template>
 
-<script>
-export default {
-  name: "flag",
-  props: {
-    iso: { type: String, default: null },
-    title: { type: String, default: null },
-    squared: { type: Boolean, default: true },
-  },
-  computed: {
-    flagIconClass() {
-      return `fi-${this.iso.toLowerCase()} ${Boolean(this.squared) ? "fis " : ""}`;
-    },
-  },
-};
+<script setup>
+import { computed } from "vue";
+
+const props = defineProps({
+  iso: { type: String, default: null },
+  title: { type: String, default: null },
+  squared: { type: Boolean, default: true },
+});
+
+const flagIconClass = computed(
+  () => `fi-${props.iso.toLowerCase()} ${props.squared ? "fis " : ""}`
+);
 </script>
 
 <style>

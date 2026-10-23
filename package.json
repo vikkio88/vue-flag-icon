@@ -1,5 +1,6 @@
 {
   "name": "vue-flag-icon",
+  "type": "module",
   "version": "2.1.0",
   "description": "vue flag icon component",
   "main": "index.js",
@@ -17,6 +18,16 @@
   ],
   "author": "Vincenzo Ciaccio <vincenzo.ciaccio@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/test-utils": "^2.4.0",
+    "jsdom": "^24.0.0",
+    "vitest": "^1.0.0",
+    "vue": "^3.4.0"
+  },
   "bugs": {
     "url": "https://github.com/vikkio88/vue-flag-icon/issues"
   },
