@@ -4,6 +4,13 @@
 a Vue2 Compoment for [flag-icons](https://github.com/lipis/flag-icons)
 
 ## Install
+
+For Vue 2 (legacy):
+```
+npm i --save vue-flag-icon@2
+```
+
+For Vue 3 (current / v3+):
 ```
 npm i --save vue-flag-icon
 ```
